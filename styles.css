@@ -1,31 +1,10 @@
-body {
-  font-family: 'Lato', sans-serif;
-  color: #747704;
-  font-weight: 300;
-}
-
-.text-muted {
-  color: #bcbbbb;
-}
-
-.text-thin {
-  font-weight: 100;
-}
-
-.title-super {
-  font-size: 60px;
-}
-
-.title-logo {
-  margin-top: 20px;
-}
-
-.spider-web {
-  width: 1150px;
-  height: 480px;
-}
-
 hr {
   height: 4px;
   border-width: 4px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
